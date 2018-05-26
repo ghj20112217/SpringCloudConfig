@@ -11,3 +11,25 @@ spring:
           uri: git@github.com:zzyybs/microservicecloud-config.git #GitHub上面的git仓库名字
  
 
+---
+#开发环境配置
+spring:
+  profiles: dev
+cgfbg: 
+  test: 开发环境配置
+  
+---
+#测试环境配置
+spring:
+  profiles: test
+cgfbg: 
+  test: 测试环境配置
+  
+---
+#生产环境配置
+
+spring:
+  profiles: pro
+cgfbg: 
+  test: 生产环境配置
+hhh: 2018年5月26日20:22:00
