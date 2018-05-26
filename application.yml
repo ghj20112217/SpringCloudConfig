@@ -1,5 +1,3 @@
-server: 
-  port: 3344 
   
 spring:
   application:
@@ -17,6 +15,8 @@ spring:
   profiles: dev
 cgfbg: 
   test: 开发环境配置
+server: 
+  port: 3356 
   
 ---
 #测试环境配置
@@ -24,7 +24,8 @@ spring:
   profiles: test
 cgfbg: 
   test: 测试环境配置
-  
+server: 
+  port: 3357 
 ---
 #生产环境配置
 
@@ -32,5 +33,7 @@ spring:
   profiles: pro
 cgfbg: 
   test: 生产环境配置
+server: 
+  port: 3358 
 ---
 hhh: 2018年5月26日20:22:00
